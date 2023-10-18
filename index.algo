@@ -1,0 +1,30 @@
+ALGORITHM tableaux
+VAR
+    element1,element2, : INTEGER
+    i,j,som, : INTEGER
+BEGIN
+    FOR (i = 1 ; i < element1.lenght; i++)
+    write ("les valeurs de l'element1")
+    read (element1[i])
+    END_FOR
+    FOR (j = 1; j < element2.lenght; j++) DO
+        FOR (i = 1; i < element1.lenght; i++) DO
+            IF (element1[i] != element2[j]) THEN
+                som = element2[J]
+            END_IF
+        END_FOR
+    END_FOR
+    FOR (j = 1; j < element2.lenght; j++)
+    ecrire ("les valeurs de l'element2")
+    read(element2[j])
+    END_FOR
+    FOR (i = 1; i < element1.lenght; i++) DO
+        FOR (j = 1; j < element2.lenght; j++) DO
+            IF (element2[j] != element1[i]) THEN
+                   som = element1[i]
+            END_IF
+        END_FOR
+    END_FOR
+
+    
+END 

@@ -1,0 +1,21 @@
+ALGORITHM produit_scalaire
+VAR
+    elementV1,elementV2 INTEGER
+    i,j,P INTEGER
+BEGIN
+    FOR (i = 1; i < elementV1.lenght; i++)
+    write("donner le element du vecteur V1")
+    read(element V1[i])
+    FOR (j = 1; j < elementV2.lenght; J++)
+    write("donner le element du vecteur V2")
+    read(element V2[j])
+    END_FOR
+    END_FOR
+    P = 0
+    FOR (i = 1; i < elementV1.lenght; i++) DO
+        FOR (j = 1; j < element V2.lenght; j++) DO
+            p = p + V1[i] * V2[j] 
+        END_FOR
+    END_FOR
+    ecrire("le produit scalaire des vecteurs V1 et V2" ,p)
+END
