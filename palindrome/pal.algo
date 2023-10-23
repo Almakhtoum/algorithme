@@ -1,0 +1,12 @@
+ALGORITHM palindrome
+VAR
+    i , ch : STRING
+BEGIN 
+    write ("une chaine de caractere")
+    read (ch)
+    FOR (i = 1 ; i chaine.lenght ; i++)
+    IF (ch[i] = ch.lenght-1[i]) THEN
+        le mot est un palindrome
+    END_IF
+    END_FOR
+END
