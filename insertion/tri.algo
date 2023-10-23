@@ -1,0 +1,16 @@
+ALGORITHM tri_par_insertion
+VAR
+    T[N] , i , j , tmp : INTEGER
+BEGIN
+    write ("veuiller saisir les  du tableau")
+    read (N)
+    FOR (i=0 ; i<N ; i++)
+        FOR (j=i+1 ; j<N ; j++)
+            IF (T[i]>T[j])
+            tmp = T[i]
+            T[i] = T[j]
+            T[j] = tmp
+            END_IF
+        END_FOR
+    END_FOR
+END
